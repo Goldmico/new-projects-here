@@ -2,10 +2,6 @@ import streamlit as st
 from PIL import Image
 import io
 
-# MADE BY D1PREZZ DONT STEAL PLEASE?
-
-images = []  # STORES ALL IMAGES!
-
 hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}      /* hides hamburger menu */
@@ -13,6 +9,16 @@ header {visibility: hidden;}         /* hides top header */
 footer {visibility: hidden;}         /* hides "Made with Streamlit" */
 </style>
 """
+
+st.set_page_config(
+    page_title="prezzlovepdf",
+    page_icon="💕"
+)
+
+# MADE BY D1PREZZ DONT STEAL PLEASE?
+
+images = []  # STORES ALL IMAGES!
+
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
